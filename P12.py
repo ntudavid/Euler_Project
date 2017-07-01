@@ -3,7 +3,7 @@ Project Euler
 
 Problem #12 - Highly divisible triangular number
 
-David 06/27/2107
+David 06/27/2017
 '''
 
 import math

@@ -3,7 +3,7 @@ Project Euler
 
 Problem #5 - Smallest multiple
 
-David 06/27/2107
+David 06/27/2017
 '''
 
 import math

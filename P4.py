@@ -3,7 +3,7 @@ Project Euler
 
 Problem #4 - Largest palindrome product
 
-David 06/27/2107
+David 06/27/2017
 '''
 
 x = range(100,1000)

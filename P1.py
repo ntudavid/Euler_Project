@@ -3,7 +3,7 @@ Project Euler
 
 Problem #1 - Multiples of 3 and 5
 
-David 06/27/2107
+David 06/27/2017
 '''
 
 def sum_of_multiples_3_5_below(num):

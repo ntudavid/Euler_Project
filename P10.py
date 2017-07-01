@@ -3,7 +3,7 @@ Project Euler
 
 Problem #10 - Summation of primes
 
-David 06/27/2107
+David 06/27/2017
 '''
 
 import math

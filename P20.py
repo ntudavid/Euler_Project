@@ -3,7 +3,7 @@ Project Euler
 
 Problem #20 - Factorial digit sum
 
-David 06/29/2107
+David 06/29/2017
 '''
 
 import math

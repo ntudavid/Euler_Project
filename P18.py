@@ -3,7 +3,7 @@ Project Euler
 
 Problem #18 - Number letter counts
 
-David 06/28/2107
+David 06/28/2017
 '''
 
 data = [75,95,64,17,47,82,18,35,87,10,20,4,82,47,65,19,1,23,75,3,34,

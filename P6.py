@@ -3,7 +3,7 @@ Project Euler
 
 Problem #6 - Sum square difference
 
-David 06/27/2107
+David 06/27/2017
 '''
 
 # approach #1

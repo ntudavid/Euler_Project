@@ -3,7 +3,7 @@ Project Euler
 
 Problem #8 - Largest product in a series
 
-David 06/27/2107
+David 06/27/2017
 '''
 
 

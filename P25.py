@@ -3,7 +3,7 @@ Project Euler
 
 Problem #25 - 1000-digit Fibonacci number
 
-David 06/29/2107
+David 06/29/2017
 '''
 
 import time

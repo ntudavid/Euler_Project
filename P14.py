@@ -3,7 +3,7 @@ Project Euler
 
 Problem #14 - Longest Collatz sequence
 
-David 06/28/2107
+David 06/28/2017
 '''
 
 import time

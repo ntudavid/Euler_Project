@@ -3,7 +3,7 @@ Project Euler
 
 Problem #24 - Lexicographic permutations
 
-David 06/29/2107
+David 06/29/2017
 '''
 
 import math

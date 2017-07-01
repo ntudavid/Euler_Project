@@ -3,68 +3,44 @@ Project Euler
 
 Problem #26 - Reciprocal cycles
 
-David 06/30/2107
+David 06/30/2017
 '''
 
-import math
-
-def isPrime(num):
-    if(num==1):
-        return False
-    elif(num==2):
-        return True
-    elif(num%2==0):
-        return False
+def recurring_cycle(num):
+    if(num == 1):
+        cnt = 0
     else:
-        sqrt_num = math.sqrt(num)
-        bound = int(sqrt_num)+1
-        for i in range(3,bound,2):
-            if(num%i==0):
-                return False
-        return True
+        x = 9
+        cnt = 1
+        while(True):
+            if(x%num==0):
+                break
+            else:
+                x = 10*x+9
+                cnt += 1
+    return cnt
 
 # main
-is_prime = [False]*1001
-check_list = [True]*1001
-for i in range(1001):
-    if(isPrime(i)):
-        is_prime[i]=True
-        check_list[i]=False
-check_list[2]=True
-check_list[5]=True
-
-recurring_cycle = [0]*1001
-x = 9
-cnt = 1
-while(True):
-    #print(cnt)
-    for i in range(1001):
-        if(check_list[i]==False):
-            if(x%i==0):
-                check_list[i]=True
-                recurring_cycle[i]=cnt
-            
-    # check every num if it is checked
-    done = True
-    for j in range(1001):
-        if(check_list[j]==False):
-            done = False
+recurring_cycle_list = [0]*1001
+recurring_cycle_list[3]=1
+for i in range(6,1001):
+    num = i
+    while(True):
+        if(num%2==0):
+            num = num//2
+        elif(num%5==0):
+            num = num//5
+        else:
             break
-    if(done==True):
-        break
-    else:
-        x = 10*x+9
-        cnt += 1
+    recurring_cycle_list[i] = recurring_cycle(num)
 
-maxNum = 0
-maxIndex = 0
+maxCycle = 1
+maxNum = 3
 for i in range(1001):
-    if(recurring_cycle[i]>maxNum):
-        maxNum = recurring_cycle[i]
-        maxIndex = i
+    cycle = recurring_cycle_list[i]
+    if(cycle>maxCycle):
+        maxCycle = cycle
+        maxNum = i
 
-#print(maxNum)
-print(maxIndex)
-
-
-
+print(maxNum, maxCycle)
+    

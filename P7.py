@@ -3,7 +3,7 @@ Project Euler
 
 Problem #7 - 10001st prime
 
-David 06/27/2107
+David 06/27/2017
 '''
 
 

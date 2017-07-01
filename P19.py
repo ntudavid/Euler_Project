@@ -3,7 +3,7 @@ Project Euler
 
 Problem #19 - Counting Sundays
 
-David 06/29/2107
+David 06/29/2017
 '''
 
 def isLeapYear(y):

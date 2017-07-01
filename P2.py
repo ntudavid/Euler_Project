@@ -3,7 +3,7 @@ Project Euler
 
 Problem #2 - Even Fibonacci numbers
 
-David 06/27/2107
+David 06/27/2017
 '''
 
 noExceed = 4000000

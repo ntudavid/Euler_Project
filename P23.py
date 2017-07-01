@@ -3,7 +3,7 @@ Project Euler
 
 Problem #23 - Non-abundant sums
 
-David 06/29/2107
+David 06/29/2017
 '''
 
 import math

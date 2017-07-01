@@ -3,7 +3,7 @@ Project Euler
 
 Problem #17 - Number letter counts
 
-David 06/28/2107
+David 06/28/2017
 '''
 
 import time

@@ -3,7 +3,7 @@ Project Euler
 
 Problem #11 - Largest product in a grid
 
-David 06/27/2107
+David 06/27/2017
 '''
 
 import numpy as np

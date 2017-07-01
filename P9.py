@@ -3,7 +3,7 @@ Project Euler
 
 Problem #9 - Special Pythagorean triplet
 
-David 06/27/2107
+David 06/27/2017
 '''
 
 def pythagorean(num):

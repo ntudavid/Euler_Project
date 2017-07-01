@@ -3,7 +3,7 @@ Project Euler
 
 Problem #16 - Power digit sum
 
-David 06/28/2107
+David 06/28/2017
 '''
 
 import time
