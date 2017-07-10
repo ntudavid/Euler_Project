@@ -3,7 +3,7 @@ Project Euler
 
 Problem #35 - Quadratic primes
 
-David 06/30/2017
+David 07/02/2017
 '''
 
 import math
