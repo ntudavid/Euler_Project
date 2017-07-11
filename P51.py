@@ -36,14 +36,46 @@ Try the pattern with 3 repeating *
 
 if 4-digit number: impossible ***1 (1111,5555 are not prime)
                               ***7 (2227,3337 are not prime)
-if 5-digit number: try all scenarios but no any found
 
-In this code, try 6-digit number with 3 repeating *
+Accordingly, try 5-digit and 6-digit numbers with 3 repeating *
 
 '''
 
 tic = time.time()
 
+# Try 5-digit number
+str_num = '0000'
+digit0 = [1,3,7,9]
+digit1 = list(range(9,-1,-1))
+
+for m in range(4): # 0~3
+    for i in digit1: # 4 cases
+        for j in digit1:
+            for k in digit0:
+                cnt = 0
+                for a in digit1:
+                    num_list = [a]*5
+                    num_list[m] = i
+                    num_list[-1] = k
+                    if(num_list[0]==0): # does not count
+                        continue
+                    num = 0
+                    for b in range(5):
+                        num += num_list[b]*10**(4-b)
+                    if(isPrime(num)):
+                        cnt +=1
+                        if(cnt==8):
+                            break
+                if(cnt==8):
+                    pattern = ['*']*5
+                    pattern[m] = i
+                    pattern[-1] = k
+                    print(num,end=' ')
+                    for c in range(5):
+                        print(pattern[c],end='')
+                    print()
+
+# Try 6-digit number
 str_num = '00000'
 digit0 = [1,3,7,9]
 digit1 = list(range(9,-1,-1))
